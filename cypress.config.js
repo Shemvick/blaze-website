@@ -9,6 +9,7 @@ async function setupNodeEvents(on, config) {
   return config;
 }
 module.exports = defineConfig({
+  projectId: "75jbr4",
   defaultCommandTimeout: 10000,
   env: {
     baseURL: "https://www.demoblaze.com/",
